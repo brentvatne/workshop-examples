@@ -1,0 +1,27 @@
+{
+  "name": "workshop-examples",
+  "version": "1.0.0",
+  "description": "Describe workshop-examples here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {
+    "animated": "^0.1.3",
+    "immutable": "^3.8.1",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-motion": "^0.4.3",
+    "why-did-you-update": "0.0.8"
+  },
+  "devDependencies": {
+    "nwb": "0.10.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
